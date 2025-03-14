@@ -68,7 +68,7 @@ nav {
 }
 
 section {
-    margin: 15% 14%;;
+    margin: 15% 19%;
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 10px; 
@@ -336,7 +336,7 @@ path.two {
     }
 
     .select-right {
-        display: none;
+        width: 100%;
     }
 
     .background {
@@ -350,47 +350,8 @@ path.two {
 
 /* SOBRE MIM - MINHAS TECNOLOGIAS */
 
-main {
-    margin: 15% 14%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-}
-
-
-.select-left, .select-right {
-    display: flex;
-    flex-direction: column; 
-}
-
     #about-me {
-        font-size: 42px;
-        line-height: 0.9;
+        text-align: center;
     }
-
-    #minhas-tecnologias {
-        text-align: right;
-        font-size: 42px;
-        line-height: 0.9;
-    }
-
-#line-blue {
-    margin: 120px 50%;
-    background-color: #001AFF;
-    width: 4px;
-    height: 500px
-}
-
- main p {
-    font-size: 20px;
-    margin: 50px 0px;
-}
-
-    #color {
-    font-weight: 500;
-}
-
-#color {
-    font-weight: 700;
-}
 
 /* RESPONSIVDADE SOBRE MIM - MINHAS TECNOLOGIAS */
